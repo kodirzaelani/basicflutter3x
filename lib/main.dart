@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stack/screens/basic_counter.dart';
+// import 'package:flutter_stack/screens/basic_counter.dart';
+import 'package:flutter_stack/screens/basic_stack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BasicCounter(),
+      home: const SampleStack(),
     );
   }
 }
