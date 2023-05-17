@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stack/screens/basic_flexibleexpand.dart';
 // import 'package:flutter_stack/screens/basic_card.dart';
-import 'package:flutter_stack/screens/basic_sizebox.dart';
+// import 'package:flutter_stack/screens/basic_sizebox.dart';
 // import 'package:flutter_stack/screens/basic_gridview.dart';
 // import 'package:flutter_stack/screens/basic_listview.dart';
 // import 'package:flutter_stack/screens/basic_counter.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BasicSizeBox(),
+      home: const BasiFlexible(),
     );
   }
 }
