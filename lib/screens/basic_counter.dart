@@ -22,7 +22,7 @@ class _BasicCounterState extends State<BasicCounter> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Basic Counter'),
+        title: const Text('Basic Counter Flutter'),
       ),
       body: Center(
         child: Column(
