@@ -20,6 +20,7 @@ class MyPageOne extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
+            // menggunakan push()
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) {

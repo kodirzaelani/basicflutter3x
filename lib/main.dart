@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyPageOne(),
+      // Untuk Navigation Route silahkan baca di navigation Name Route
     );
   }
 }

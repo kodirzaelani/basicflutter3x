@@ -20,7 +20,8 @@ class MyPageTwo extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.push(
+            // menggunakan pop()
+            Navigator.pop(
               context,
               MaterialPageRoute(builder: (context) {
                 return const MyPageOne();
