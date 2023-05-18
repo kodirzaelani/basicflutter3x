@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stack/pages/page_one.dart';
 // import 'package:flutter_stack/screens/basic_bottomnavigationbar.dart';
-import 'package:flutter_stack/screens/basic_dialog_bottomsheet.dart';
+// import 'package:flutter_stack/screens/basic_dialog_bottomsheet.dart';
+// import 'package:flutter_stack/screens/basic_navigator.dart';
 // import 'package:flutter_stack/screens/basic_flexibleexpand.dart';
 // import 'package:flutter_stack/screens/basic_card.dart';
 // import 'package:flutter_stack/screens/basic_sizebox.dart';
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BasicDialog(),
+      home: const MyPageOne(),
     );
   }
 }
