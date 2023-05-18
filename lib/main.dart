@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stack/pages/page_one.dart';
+import 'package:flutter_stack/pages/page_two.dart';
 // import 'package:flutter_stack/screens/basic_bottomnavigationbar.dart';
 // import 'package:flutter_stack/screens/basic_dialog_bottomsheet.dart';
 // import 'package:flutter_stack/screens/basic_navigator.dart';
@@ -27,8 +28,14 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyPageOne(),
+      // matikan jika menggunakan initialROute
+      // home: const MyPageOne(),
       // Untuk Navigation Route silahkan baca di navigation Name Route
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const MyPageOne(),
+        '/second': (context) => const MyPageTwo()
+      },
     );
   }
 }

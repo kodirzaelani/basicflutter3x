@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_stack/pages/page_two.dart';
+// import 'package:flutter_stack/pages/page_two.dart';
 
 class MyPageOne extends StatelessWidget {
   const MyPageOne({super.key});
@@ -20,13 +20,15 @@ class MyPageOne extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
+            // menggunakan route
+            Navigator.pushNamed(context, '/second');
             // menggunakan push()
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) {
-                return const MyPageTwo();
-              }),
-            );
+            // Navigator.push(
+            //   context,
+            //   MaterialPageRoute(builder: (context) {
+            //     return const MyPageTwo();
+            //   }),
+            // );
           },
           child: const Text(
             'Page Two',
