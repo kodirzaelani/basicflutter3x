@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_stack/pages/page_form.dart';
 import 'package:flutter_stack/pages/page_one.dart';
 import 'package:flutter_stack/pages/page_two.dart';
 // import 'package:flutter_stack/screens/basic_bottomnavigationbar.dart';
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MyPageOne(),
-        '/second': (context) => const MyPageTwo()
+        '/second': (context) => const MyPageTwo(),
+        '/form': (context) => const MyPageForm(),
       },
     );
   }
